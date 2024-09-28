@@ -1,0 +1,21 @@
+# ninja log v5
+1	41	7492233973703388	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	96f7a74b71f87d9
+1	41	7492233973703388	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	96f7a74b71f87d9
+42	16203	7492234135314383	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	d3d9dbef2c468bd5
+42	16203	7492234135314383	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	d3d9dbef2c468bd5
+16203	16302	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	9406683148cb084
+16203	16302	0	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	9406683148cb084
+16302	16339	7492234136680004	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	95210cc14b0be23d
+16302	16339	7492234136680004	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	95210cc14b0be23d
+16339	16377	7492234137060022	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	4dc3c8fd6127241e
+16339	16377	7492234137060022	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	4dc3c8fd6127241e
+16377	16415	7492234137433270	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	1b12ca7f86d6eb59
+16377	16415	7492234137433270	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	1b12ca7f86d6eb59
+16415	16452	7492234137804403	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	d61c39a3243fe783
+16415	16452	7492234137804403	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	d61c39a3243fe783
+16452	16489	7492234138174357	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	bca8148f126f9a1d
+16452	16489	7492234138174357	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	bca8148f126f9a1d
+16489	16544	7492234138728436	CMakeFiles/sfml-populate-complete	ff4619abac5092
+16489	16544	7492234138728436	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ff4619abac5092
+16489	16544	7492234138728436	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	ff4619abac5092
+16489	16544	7492234138728436	C:/Users/Patrick/CLionProjects/DoodleJump/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	ff4619abac5092
