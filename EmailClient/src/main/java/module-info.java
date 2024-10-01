@@ -3,7 +3,7 @@ module com.example.emailclient {
     requires javafx.fxml;
     //requires mail;
     requires org.jsoup;
-    requires java.mail;
+    requires jakarta.mail; 
     //requires jfxrt;
 
 

@@ -1,0 +1,21 @@
+# DigitRecognition
+DigitRecognition/.digit_recognition_env/
+
+# General
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Build directories
+**/build/
+
+# Logs
+*.log
+
+# Environment variables file (if you have one)
+.env
