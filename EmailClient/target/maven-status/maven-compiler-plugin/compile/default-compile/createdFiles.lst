@@ -1,0 +1,15 @@
+com\example\emailclient\SaveLoad.class
+com\example\emailclient\SendMail$2.class
+com\example\emailclient\OpenMail.class
+com\example\emailclient\SendMail.class
+com\example\emailclient\HelloController.class
+com\example\emailclient\MainScreen.class
+com\example\emailclient\HelloApplication.class
+com\example\emailclient\SendMail$1.class
+com\example\emailclient\MainScreen$1.class
+com\example\emailclient\MainScreen$Mail.class
+com\example\emailclient\LoginScreen.class
+com\example\emailclient\AlertBox.class
+module-info.class
+com\example\emailclient\ReadWrite.class
+com\example\emailclient\ChooseData.class

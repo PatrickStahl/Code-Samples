@@ -1,6 +1,16 @@
 #include <SFML/Graphics.hpp>
 #include <time.h>
+#include <Windows.h>
+#include <filesystem> 
 using namespace sf;
+
+// Function to get the executable's directory path
+std::string getExecutablePath() {
+    char path[MAX_PATH];
+    GetModuleFileNameA(NULL, path, MAX_PATH);  // Get the full path of the executable
+    std::filesystem::path exePath(path);       // Convert to std::filesystem::path
+    return exePath.parent_path().string();     // Return the parent directory as a string
+}
 
 struct point { int x, y; };
 
@@ -16,18 +26,23 @@ int main() {
     RenderWindow app(VideoMode(400, 533), "Doodle Jump", Style::Close);
     app.setFramerateLimit(60);
 
-    // Bilder laden
+    // Get the executable's directory
+    std::string exeDir = getExecutablePath();
+
+    // Bilder laden with paths relative to the executable's location
     Texture background, plattform, doodler_left, doodler_right, doodleenemy;
-    background.loadFromFile("img/background.png");
-    plattform.loadFromFile("img/platform.png");
-    doodler_left.loadFromFile("img/doodler_left.png");
-    doodler_right.loadFromFile("img/doodler_right.png");
-    doodleenemy.loadFromFile("img/enemy.png");
+    
+    // Construct paths relative to the executable directory
+    background.loadFromFile(exeDir + "/img/background.png");
+    plattform.loadFromFile(exeDir + "/img/platform.png");
+    doodler_left.loadFromFile(exeDir + "/img/doodler_left.png");
+    doodler_right.loadFromFile(exeDir + "/img/doodler_right.png");
+    doodleenemy.loadFromFile(exeDir + "/img/enemy.png");
 
     // Endscreen konfigurieren
     Sprite sBackground(background), sPlat(plattform), sPers(doodler_right);
     Font font;
-    font.loadFromFile("fonts/DoodleJump.ttf");
+    font.loadFromFile(exeDir + "/fonts/DoodleJump.ttf");
     Text gameOverText("\t\tGame Over!\n Press Enter to Restart", font, 30);
     gameOverText.setFillColor(Color::Black);
     FloatRect textRect = gameOverText.getLocalBounds();

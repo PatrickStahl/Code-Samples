@@ -10,5 +10,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(DoodleJump main.cpp)
 
+# Ressourcen in das buildverzeichnis kopieren
+file(COPY ${CMAKE_SOURCE_DIR}/img DESTINATION ${CMAKE_BINARY_DIR}/Debug)
+file(COPY ${CMAKE_SOURCE_DIR}/fonts DESTINATION ${CMAKE_BINARY_DIR}/Debug)
+
 # Das Ziel `DoodleJump` mit SFML-Bibliotheken verknüpfen
 target_link_libraries(DoodleJump sfml-graphics sfml-window sfml-system)
