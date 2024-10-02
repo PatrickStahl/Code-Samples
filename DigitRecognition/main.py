@@ -110,19 +110,3 @@ class DrawingApp:
 print("Model trained. Opening drawing application...")
 app = DrawingApp(model)
 app.run()
-
-'''
-input("Model trainiert. Mit Entertaste werden Bilder geladen...")
-
-# Lies Bilder ein
-for x in range(1,4):
-    img = cv.imread(f'test{x}.png')[:,:,0]
-    img = np.invert(np.array([img]))
-    # Gibt alle Outputneuronen (Prozente) aus, nehme höchsten Index davon
-    prediction = model.predict(img)
-    print(f'Erkannte Zahl: {np.argmax(prediction)}')
-
-    plt.imshow(img[0], cmap=plt.cm.binary)
-    plt.show()
-    input("Mit Enter nächstes Bild anzeigen...")
-'''
